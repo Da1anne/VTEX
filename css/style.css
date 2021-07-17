@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 50px;
+    background-color: #000;
+}
+
+.text-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-stretch: extra-expanded;
+    padding-top: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 90vh;
+    width: auto;
+}
+
+
+.section-one {
+    background-image: url(../assets/bg10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-two {
+    background-image: url(../assets/bg5.png);
+    background-size: contain;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.card-container {
+    background-color: darkgrey;
+    border-radius: 20px;
+    height: 125px;
+    width: 250px;
+    align-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.card-container:hover {
+    background-color: lightgrey;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: #e3e3e3;
+    border-style: solid 2px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input:active {
+    border-style: solid #000 4px;
+}
+
+.input-cadastrar {
+    background-color: #8b0000;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-cadastrar:active {
+    background-color: #660d0d;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: darkred;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
